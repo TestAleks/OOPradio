@@ -14,9 +14,9 @@ public class Radio {
     }
 
     public Radio() {
-        // this.minChannel = minChannel;
-        // this.maxChannel = maxChannel;
-        // this.currentChannel = minChannel;
+        this.minChannel = minChannel;
+        this.maxChannel = maxChannel;
+        this.currentChannel = minChannel;
     }
 
 
@@ -73,11 +73,11 @@ public class Radio {
     }
 
     public void setPrevChannel() {
-        if (currentChannel > minChannel) {
-            currentChannel = currentChannel - 1;
-        } else {
-            currentChannel = maxChannel;
-        }
+       if (currentChannel > minChannel) {
+        currentChannel = currentChannel - 1;
+    } else {
+           currentChannel = maxChannel;
+       }
     }
 
     public void setPlusVolume() {
