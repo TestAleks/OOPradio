@@ -222,4 +222,3 @@ public class RadioTest {
         rad.getMaxChannel();
     }
 }
-

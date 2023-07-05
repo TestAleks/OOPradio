@@ -95,4 +95,11 @@ public class Radio {
             currentVolume = minVolume;
         }
     }
+    public void setMinusVolume() {
+        if (currentVolume > minVolume) {
+            currentVolume = currentVolume - 1;
+        } else {
+            currentVolume = minVolume;
 }
+
+
